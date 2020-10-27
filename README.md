@@ -31,10 +31,10 @@ No more error will occur.
 
 # Cases when this occurs
 
-- esxcli software profile update --depot=/vmfs/volumes/5efcdc46-fd96214e-b10e-2cea7fd6cf6c/esxi/ESXi670-202010001.zip -p ESXi-6.7.0-20201004001-standard
+- esxcli software profile update --depot=/vmfs/volumes/VolumeName/esxi/ESXi670-202010001.zip -p ESXi-6.7.0-20201004001-standard
 error: 32 - Broken Pipe
 
-- esxcli software vib update --depot=/vmfs/volumes/5efcdc46-fd96214e-b10e-2cea7fd6cf6c/esxi/VMware-Tools-11.1.5-core-offline-depot-ESXi-all-16724464.zip
+- esxcli software vib update --depot=/vmfs/volumes/VolumeName/esxi/VMware-Tools-11.1.5-core-offline-depot-ESXi-all-16724464.zip
 error: 32 - Broken Pipe
 
 - esxcli software profile update -p ESXi-7.0.1-16850804-standard \ -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
