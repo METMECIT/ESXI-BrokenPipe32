@@ -33,7 +33,7 @@ No more error will occur.
 
 - esxcli software profile update --depot=/vmfs/volumes/VolumeName/esxi/ESXi670-202010001.zip -p ESXi-6.7.0-20201004001-standard
 
-error: 32 - Broken Pipe
+error: 32 - Broken Pipe (also mentions locker)
 
 - esxcli software vib update --depot=/vmfs/volumes/VolumeName/esxi/VMware-Tools-11.1.5-core-offline-depot-ESXi-all-16724464.zip
 
